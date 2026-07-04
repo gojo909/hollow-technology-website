@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="icon" href="images/hollow_robotics.jpg">
+    <style>
+*{
+    background-color: #0a1a1e;
+}
+div{
+    border: solid 1px rgba(0, 229, 255, 0.15);
+    opacity:0.4;
+    transition: opacity 0.4s ease, font-size 0.4s ease, border 0.4s ease;
+     width:95%;
+    max-width:900px;
+    margin:20px 0;
+}
+
+div:hover{
+    border: solid 2px rgba(0, 229, 255, 0.15);
+    opacity:1;
+    font-size: 19px;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+h1{
+    color: #00e5ff;
+}
+pre{
+    color: rgba(0,229,255,0.15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: font-size 0.4s ease, color 0.4s ease;
+    white-space: pre;
+}
+pre:hover{
+    font-size: 19px;
+    color: rgba(0, 229, 255, 0.9); /* brightens on hover */
+}
+.big_heading{
+    text-align: center;
+    font-size: 35px;
+}
+.hover-text{
+    font-size: 20px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease, transform 0.4s ease, max-height 0.4s ease;
+}
+.FAQ{text-align: center;
+    display: inline-block;
+      }
+.FAQ:hover .hover-text{
+     opacity: 1;
+    max-height: 100px;
+    transform: translateY(0);
+}
+
+@media (max-width:768px){
+
+    div{
+        width:95%;
+    }
+
+    pre{
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+    }
+
+    .big_heading{
+        font-size:28px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+<div class="FAQ">
+<h1 class="big_heading">
+    FAQ
+</h1>
+<pre class="hover-text" >Frequently Asked Questions</pre>
+</div>
+<div>
+        <h1>What is HolloW Technologies?</h1>
+        <pre>
+HolloW Technologies is a forward-thinking AI and robotics company dedicated to building
+intelligent systems that push the boundaries of what machines can do. We combine cutting
+edge research with practical engineering to create solutions for tomorrow's challenges.</pre>
+    </div>
+
+<div>
+<h1>What kind of products does HolloW Technologies develop?</h1>
+<pre>
+We focus on AI-powered software, autonomous robotics, and intelligent automation
+systems designed for industries ranging from healthcare and logistics to security and smart
+infrastructure.
+</pre>    
+</div>
+
+<div>
+    <h1>What drives HolloW Technologies' research?</h1>
+    <pre>
+We believe the next era of human progress will be shaped by machines that can think,
+learn, and adapt. Our research is guided by that belief — practical innovation grounded in
+rigorous science.
+    </pre>
+</div>
+
+<div>
+    <h1>Do you publish your research?</h1>
+    <pre>
+We are committed to open knowledge sharing where possible. Research papers,
+whitepapers, and technical blogs will be released periodically on this site.
+    </pre>
+</div>
+
+<div>
+    <h1>Can I collaborate or partner with HolloW Technologies?</h1>
+    <pre>
+Absolutely. We welcome partnerships with universities, startups, and organizations aligned
+with our mission. Reach out through our contact page.Please check the contact on the first 
+page.
+    </pre>
+</div>
+
+<div>
+    <h1>How do I get in touch?</h1>
+    <pre>
+You can reach us through the contact form on our website or email us directly at
+contact@hollowtechnologies.com.
+    </pre>
+</div>
+</body>
+</html>
